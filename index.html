@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Partisipasi Pendidikan Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="visdat.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="http://static.yac.mx/js/adoff.js?15050803"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="ina.js"></script> <!-- creates uStates. -->
+	<script src="pie.js"></script> <!-- creates uStates. -->
+	<script src="bar.js"></script> <!-- creates uStates. -->
+	<script src="visdat.js"></script> <!-- creates uStates. -->
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<div class="container-narrow">
+	      <div class="masthead">
+			<h1 class="muted"><font face="Bebas Neue">Persentase Partisipasi Sekolah di Indonesia</font></h1>
+			<ul class="nav nav-pills pull-right">
+				<li><h5>Pilih Tahun : </h5></li>
+					<li><select id="tahun" onchange="updateData(this)">
+						  <option value="2006">2006</option>
+						  <option value="2007">2007</option>
+						  <option value="2008">2008</option>
+						  <option value="2009">2009</option>
+						  <option value="2010">2010</option>
+						  <option value="2011">2011</option>
+						  <option value="2012">2012</option>
+						</select></li>
+			</ul>
+	<hr>
+	
+		  </div>
+		  <div class="row-fluid">
+		  <div class="span2">
+			<div class="panel panel-info">
+			<div class="panel-heading">
+				<h2 class="panel-title"><font face="Bebas Neue" size="5px">Pendidikan Indonesia</font></h2>
+			  </div>
+		  <div class="panel-body">
+			<!--<h6>Kekayaan terbesar suatu bangsa terletak pada kualitas SDMnya. Sejak tahun 1994, pemerintah Indonesia telah menetapkan program wajib belajar pendidikan dasar sembilan tahun dengan target partisipasi sekolah untuk SMP/MTs mencapai 90 persen. Tahun 2000, pemerintah Indonesia menandatangani MDGs, berkomitmen untuk menyediakan pendidikan dasar untuk semua dengan target menjamin bahwa semua anak, di manapun, laki-laki dan perempuan, dapat menyelesaikan sekolah dasar. </h6><h3>Sudahkah itu tercapai? </h3>-->
+		  <h5>Kekayaan terbesar suatu bangsa terletak pada kualitas SDMnya. Kualitas SDM seseorang dapat ditentukan dari tingkat pendidikannya. Sejak tahun 1994, pemerintah Indonesia telah menetapkan program wajib belajar pendidikan dasar sembilan tahun. </h5><h4><font face="Bebas Neue">Sudahkah itu tercapai? </font></h4> <h5>Persentase partisipasi sekolah menurun drastis dari jenjang SMP ke SMA, maupun dari SMA ke Kuliah. </h5> <h4><font face="Bebas Neue">Apa Penyebabnya? </font></h4>
+		  </div>
+		  </div>
+		  </div>
+		  <div class="span10">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h2 class="panel-title"><font face="Bebas Neue" size="5px">Peta Persebaran Persentase Partisipasi Sekolah Tiap Provinsi</font></h2>
+			  </div>
+		
+		  <div class="panel-body">
+			<div id="tooltip"></div>
+			<svg width="1000px" height="390px" id="statesvg" viewBox="0 0 800 350"></svg> <!-- svg to hold the map. -->
+		  </div>
+		  </div>
+		 </div>
+		  
+		</div>
+		<div class="row-fluid">
+		  <div class="span9">
+				<div class="panel panel-info" id="panel-bar">
+				<div class="panel-heading">
+							<h2 class="panel-title" ><font face="Bebas Neue" size="5px">Grafik Persentase Partisipasi Sekolah Tiap Tahun</font></h2>
+						  </div>
+						  <!--<ul class="nav nav-pills pull-left">-->
+						  
+							<h5 align="center" >Pilih Provinsi : </h5>
+							<div align="center">
+							<select id="provinsi" onchange="updateProvinsi(this)">
+								<option value="Indonesia">Seluruh Indonesia</option>
+								<option value="Bali">Bali</option>
+								<option value="Banten">Banten</option>
+								<option value="Bengkulu">Bengkulu</option>
+								<option value="DIY">D.I. Yogyakarta</option>
+								<option value="Gorontalo">Gorontalo</option>
+								<option value="JaBar">Jawa Barat</option>
+								<option value="Jakarta">Jakarta</option>
+								<option value="Jambi">Jambi</option>
+								<option value="JaTeng">Jawa Tengah</option>
+								<option value="JaTim">Jawa Timur</option>
+								<option value="K.BangkaBel">Kep. Bangka Belitung</option>
+								<option value="K.Riau">Kep. Riau</option>
+								<option value="KalBar">Kalimantan Barat</option>
+								<option value="KalSel">Kalimantan Selatan</option>
+								<option value="KalTeng">Kalimantan Tengah</option>
+								<option value="KalTim">Kalimantan Timur</option>
+								<option value="Lampung">Lampung</option>
+								<option value="Maluku">Maluku</option>
+								<option value="MalUt">Maluku Utara</option>
+								<option value="NAD">Nanggroe Aceh Darusalam</option>
+								<option value="NTB">NTB</option>
+								<option value="NTT">NTT</option>
+								<option value="PapBar">Papua Barat</option>
+								<option value="Papua">Papua</option>
+								<option value="Riau">Riau</option>
+								<option value="SulBar">Sulawesi Barat</option>
+								<option value="SulSel">Sulawesi Selatan</option>
+								<option value="SulTeng">Sulawesi Tengah</option>
+								<option value="SulTgr">Sulawesi Tenggara</option>
+								<option value="SulUt">Sulawesi Utara</option>
+								<option value="SumBar">Sumatera Barat</option>
+								<option value="SumSel">Sumatera Selatan</option>
+								<option value="SumUt">Sumatera Utara</option>
+							</select>
+							</div>
+						<!--</ul>-->
+							
+					  <div class="panel-body">
+						<div id="tooltip"></div>
+					<svg width="800px" height="390px" id="bar" viewBox="0 0 800 350"></svg>
+					</div>
+				</div>
+		  </div>
+		  <div class="span3">
+				<div class="panel panel-info" id="panel-pie">
+					<div class="panel-heading">
+							<h2 class="panel-title"><font face="Bebas Neue" size="5px">Persentase Partisipasi Sekolah Tiap Jenjang Pendidikan</font></h2>
+						  </div>
+					  <div class="panel-body">
+						<div id="tooltip"></div>
+						<svg width="300px" height="300px" id="pie" viewBox="0 0 800 350"></svg>
+						</div>
+				</div>
+		  </div>
+		</div>
+	
+	
+	</div>
+	<div class="footer"><br/>
+	<font size="1px"><center >Sumber : http://data.go.id/</center></font>
+	</div>
+	<script>
+	
+		d3.csv(petacsv, function(d) {
+			return {
+				id: d.id,
+				nama: d.nama,
+				tahun: d.tahun,
+				persen: d.persen,
+				//color: d3.interpolate("#DB516F","#467BB8","#A3ADBF","#C4B289")((d.persen-50)/25)
+				color: d3.interpolate("#FAEDFF", "#09317A")((d.persen-50)/50)
+				//color: d3.scale.category20()(4)
+			  };
+			}, function(error, rows) {
+				console.log(rows.filter(function(d) { return d.tahun  == "2006";}));	
+				uStates.draw("#statesvg", rows.filter(function(d) { return d.tahun  == "2006";}), tooltipHtml);
+		});
+		
+		//PIECHART
+		d3.csv("tahun-jenjang.csv", function(error, data) {
+			data = data.filter(function(d) { return d.tahun  == "2006";});
+			pieChart.draw("#pie", data, tooltipPie);
+		});
+		//BARCHART
+		d3.csv(barcsv, function(error, data) {
+			data = data.filter(function(row) {
+					return row['provinsi'] == "Indonesia";
+			})
+			barChart.draw("#bar", data, tooltipPie);
+		});
+		
+		//UPDATE
+		function updateData(select){
+			//d3.selectAll("#chart2").remove(); //REMOVE BARCHART
+			d3.selectAll("#chart3").remove(); //REMOVE PIECHART
+			d3.selectAll("#chart").remove(); //REMOVE PETA
+			d3.csv(petacsv, function(d) {
+				return {
+					id: d.id,
+					nama: d.nama,
+					tahun: d.tahun,
+					persen: d.persen,
+					//color: d3.interpolate("#FAEDFF", "#09317A")((d.persen)/100)
+					color: d3.interpolate("#FAEDFF", "#09317A")((d.persen-50)/50)
+				  };
+				}, function(error, rows) {
+					console.log(rows.filter(function(d) { return d.tahun  == select.value;}));	
+					uStates.draw("#statesvg", rows.filter(function(d) { return d.tahun  == select.value;}), tooltipHtml);
+			});
+			
+			//PIECHART
+			d3.csv("tahun-jenjang.csv", function(error, data) {
+				data = data.filter(function(d) { return d.tahun  == select.value;});
+				pieChart.draw("#pie", data, tooltipPie);
+			});
+		}
+		
+		
+		//UPDATE
+		function updateProvinsi(select){
+			d3.selectAll("#chart2").remove(); //REMOVE BARCHART
+			//BARCHART
+			barcsv = "databar.csv";
+			d3.csv(barcsv, function(error, data) {
+				data = data.filter(function(row) {
+					return row['provinsi'] == select.value;
+				})
+				barChart.draw("#bar", data, tooltipPie);
+			});
+		}
+		
+		
+	</script>
+  </body>
+</html>

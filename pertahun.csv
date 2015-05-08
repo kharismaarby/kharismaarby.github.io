@@ -1,0 +1,232 @@
+no,id,nama,tahun,persen
+1,11,Nanggroe Aceh Darussalam,2006,71.5225
+2,11,Nanggroe Aceh Darussalam,2007,72.35
+3,11,Nanggroe Aceh Darussalam,2008,72.26
+4,11,Nanggroe Aceh Darussalam,2009,72.235
+5,11,Nanggroe Aceh Darussalam,2010,72.955
+6,11,Nanggroe Aceh Darussalam,2011,73.2475
+7,11,Nanggroe Aceh Darussalam,2012,74.2175
+8,12,Sumatera Utara,2006,66.78
+9,12,Sumatera Utara,2007,67.3475
+10,12,Sumatera Utara,2008,67.5575
+11,12,Sumatera Utara,2009,67.7875
+12,12,Sumatera Utara,2010,68.4375
+13,12,Sumatera Utara,2011,67.8475
+14,12,Sumatera Utara,2012,69.1325
+15,13,Sumatera Barat,2006,67.185
+16,13,Sumatera Barat,2007,68.1325
+17,13,Sumatera Barat,2008,68.43
+18,13,Sumatera Barat,2009,68.16
+19,13,Sumatera Barat,2010,68.665
+20,13,Sumatera Barat,2011,69.465
+21,13,Sumatera Barat,2012,72.0475
+22,14,Riau,2006,66.0075
+23,14,Riau,2007,66.61
+24,14,Riau,2008,67.0175
+25,14,Riau,2009,66.7975
+26,14,Riau,2010,67.35
+27,14,Riau,2011,66.48
+28,14,Riau,2012,66.8925
+29,15,Jambi,2006,61.2825
+30,15,Jambi,2007,62.3775
+31,15,Jambi,2008,62.715
+32,15,Jambi,2009,62.5425
+33,15,Jambi,2010,63.1875
+34,15,Jambi,2011,65.315
+35,15,Jambi,2012,65.955
+36,16,Sumatera Selatan,2006,60.8475
+37,16,Sumatera Selatan,2007,62.07
+38,16,Sumatera Selatan,2008,62.25
+39,16,Sumatera Selatan,2009,62.045
+40,16,Sumatera Selatan,2010,62.5675
+41,16,Sumatera Selatan,2011,62.8525
+42,16,Sumatera Selatan,2012,64.605
+43,17,Bengkulu,2006,64.5975
+44,17,Bengkulu,2007,65.16
+45,17,Bengkulu,2008,65.1275
+46,17,Bengkulu,2009,65.1925
+47,17,Bengkulu,2010,65.875
+48,17,Bengkulu,2011,67.065
+49,17,Bengkulu,2012,69.405
+50,18,Lampung,2006,59.66
+51,18,Lampung,2007,60.405
+52,18,Lampung,2008,60.7775
+53,18,Lampung,2009,60.965
+54,18,Lampung,2010,61.6225
+55,18,Lampung,2011,62.2925
+56,18,Lampung,2012,65.005
+57,19,Kepulauan Bangka Belitung,2006,56.58
+58,19,Kepulauan Bangka Belitung,2007,57.9975
+59,19,Kepulauan Bangka Belitung,2008,58.1325
+60,19,Kepulauan Bangka Belitung,2009,57.9575
+61,19,Kepulauan Bangka Belitung,2010,58.525
+62,19,Kepulauan Bangka Belitung,2011,59.6475
+63,19,Kepulauan Bangka Belitung,2012,60.205
+64,21,Kepulauan Riau,2006,64.335
+65,21,Kepulauan Riau,2007,65.265
+66,21,Kepulauan Riau,2008,66.255
+67,21,Kepulauan Riau,2009,65.475
+68,21,Kepulauan Riau,2010,66.6775
+69,21,Kepulauan Riau,2011,67.1775
+70,21,Kepulauan Riau,2012,68.1375
+71,31,DKI Jakarta,2006,66.18
+72,31,DKI Jakarta,2007,66.9825
+73,31,DKI Jakarta,2008,67.24
+74,31,DKI Jakarta,2009,67.1425
+75,31,DKI Jakarta,2010,67.6275
+76,31,DKI Jakarta,2011,66.4475
+77,31,DKI Jakarta,2012,67.84
+78,32,Jawa Barat,2006,57.96
+79,32,Jawa Barat,2007,58.9925
+80,32,Jawa Barat,2008,59.34
+81,32,Jawa Barat,2009,59.285
+82,32,Jawa Barat,2010,59.805
+83,32,Jawa Barat,2011,61.155
+84,32,Jawa Barat,2012,63.6575
+85,33,Jawa Tengah,2006,60.6125
+86,33,Jawa Tengah,2007,61.545
+87,33,Jawa Tengah,2008,61.7525
+88,33,Jawa Tengah,2009,61.6075
+89,33,Jawa Tengah,2010,62.335
+90,33,Jawa Tengah,2011,63.295
+91,33,Jawa Tengah,2012,64.7
+92,34,D I Yogyakarta,2006,75.1975
+93,34,D I Yogyakarta,2007,76.7775
+94,34,D I Yogyakarta,2008,77.115
+95,34,D I Yogyakarta,2009,77.1575
+96,34,D I Yogyakarta,2010,77.7
+97,34,D I Yogyakarta,2011,78.6575
+98,34,D I Yogyakarta,2012,80.6575
+99,35,Jawa Timur,2006,62.82
+100,35,Jawa Timur,2007,63.6375
+101,35,Jawa Timur,2008,63.735
+102,35,Jawa Timur,2009,64.13
+103,35,Jawa Timur,2010,64.845
+104,35,Jawa Timur,2011,64.955
+105,35,Jawa Timur,2012,66.5975
+106,36,Banten,2006,59.18
+107,36,Banten,2007,60.255
+108,36,Banten,2008,60.26
+109,36,Banten,2009,59.935
+110,36,Banten,2010,60.5775
+111,36,Banten,2011,63.82
+112,36,Banten,2012,65.8475
+113,51,Bali,2006,64.905
+114,51,Bali,2007,65.6075
+115,51,Bali,2008,65.8525
+116,51,Bali,2009,66.345
+117,51,Bali,2010,67.12
+118,51,Bali,2011,69.3525
+119,51,Bali,2012,70.9425
+120,52,Nusa Tenggara Barat,2006,62.5325
+121,52,Nusa Tenggara Barat,2007,63.6125
+122,52,Nusa Tenggara Barat,2008,63.66
+123,52,Nusa Tenggara Barat,2009,63.815
+124,52,Nusa Tenggara Barat,2010,64.47
+125,52,Nusa Tenggara Barat,2011,66.6425
+126,52,Nusa Tenggara Barat,2012,67.02
+127,53,Nusa Tenggara Timur,2006,57.3425
+128,53,Nusa Tenggara Timur,2007,58.96
+129,53,Nusa Tenggara Timur,2008,58.8825
+130,53,Nusa Tenggara Timur,2009,58.945
+131,53,Nusa Tenggara Timur,2010,60.3475
+132,53,Nusa Tenggara Timur,2011,64.355
+133,53,Nusa Tenggara Timur,2012,66.3275
+134,61,Kalimantan Barat,2006,59.46
+135,61,Kalimantan Barat,2007,60.4975
+136,61,Kalimantan Barat,2008,60.7325
+137,61,Kalimantan Barat,2009,60.215
+138,61,Kalimantan Barat,2010,60.825
+139,61,Kalimantan Barat,2011,60.465
+140,61,Kalimantan Barat,2012,62.67
+141,62,Kalimantan Tengah,2006,61.78
+142,62,Kalimantan Tengah,2007,62.3525
+143,62,Kalimantan Tengah,2008,62.415
+144,62,Kalimantan Tengah,2009,62.2375
+145,62,Kalimantan Tengah,2010,62.7725
+146,62,Kalimantan Tengah,2011,62.665
+147,62,Kalimantan Tengah,2012,62.94
+148,63,Kalimantan Selatan,2006,58.255
+149,63,Kalimantan Selatan,2007,59.355
+150,63,Kalimantan Selatan,2008,59.715
+151,63,Kalimantan Selatan,2009,59.5125
+152,63,Kalimantan Selatan,2010,60.225
+153,63,Kalimantan Selatan,2011,62.1
+154,63,Kalimantan Selatan,2012,64.37
+155,64,Kalimantan Timur,2006,66.1375
+156,64,Kalimantan Timur,2007,66.9325
+157,64,Kalimantan Timur,2008,67.0675
+158,64,Kalimantan Timur,2009,67.0025
+159,64,Kalimantan Timur,2010,67.7025
+160,64,Kalimantan Timur,2011,68.905
+161,64,Kalimantan Timur,2012,71.52
+162,71,Sulawesi Utara,2006,63.0925
+163,71,Sulawesi Utara,2007,63.69
+164,71,Sulawesi Utara,2008,63.9925
+165,71,Sulawesi Utara,2009,63.7125
+166,71,Sulawesi Utara,2010,64.3525
+167,71,Sulawesi Utara,2011,65.265
+168,71,Sulawesi Utara,2012,67.1
+169,72,Sulawesi Tengah,2006,59.5275
+170,72,Sulawesi Tengah,2007,60.6275
+171,72,Sulawesi Tengah,2008,60.9475
+172,72,Sulawesi Tengah,2009,60.84
+173,72,Sulawesi Tengah,2010,61.61
+174,72,Sulawesi Tengah,2011,63.1775
+175,72,Sulawesi Tengah,2012,64.1975
+176,73,Sulawesi Selatan,2006,59.3025
+177,73,Sulawesi Selatan,2007,60.79
+178,73,Sulawesi Selatan,2008,60.7675
+179,73,Sulawesi Selatan,2009,61.2375
+180,73,Sulawesi Selatan,2010,62.8175
+181,73,Sulawesi Selatan,2011,64.565
+182,73,Sulawesi Selatan,2012,67.41
+183,74,Sulawesi Tenggara,2006,63.7725
+184,74,Sulawesi Tenggara,2007,64.365
+185,74,Sulawesi Tenggara,2008,64.6325
+186,74,Sulawesi Tenggara,2009,65.1325
+187,74,Sulawesi Tenggara,2010,66.0475
+188,74,Sulawesi Tenggara,2011,66.6925
+189,74,Sulawesi Tenggara,2012,68.555
+190,75,Gorontalo,2006,56.1975
+191,75,Gorontalo,2007,58.6625
+192,75,Gorontalo,2008,58.7725
+193,75,Gorontalo,2009,59.34
+194,75,Gorontalo,2010,60.28
+195,75,Gorontalo,2011,64.2625
+196,75,Gorontalo,2012,64.495
+197,76,Sulawesi Barat,2006,54.5975
+198,76,Sulawesi Barat,2007,56.035
+199,76,Sulawesi Barat,2008,56.54
+200,76,Sulawesi Barat,2009,56.37
+201,76,Sulawesi Barat,2010,57.215
+202,76,Sulawesi Barat,2011,61.345
+203,76,Sulawesi Barat,2012,61.8425
+204,81,Maluku,2006,68.6025
+205,81,Maluku,2007,69.6675
+206,81,Maluku,2008,69.7
+207,81,Maluku,2009,70.3425
+208,81,Maluku,2010,71.35
+209,81,Maluku,2011,70.2325
+210,81,Maluku,2012,72.59
+211,82,Maluku Utara,2006,65.4925
+212,82,Maluku Utara,2007,66.1875
+213,82,Maluku Utara,2008,66.4975
+214,82,Maluku Utara,2009,66.48
+215,82,Maluku Utara,2010,67.2875
+216,82,Maluku Utara,2011,67.1075
+217,82,Maluku Utara,2012,69.7675
+218,91,Papua Barat,2006,61.7125
+219,91,Papua Barat,2007,63.1225
+220,91,Papua Barat,2008,63.695
+221,91,Papua Barat,2009,63.1525
+222,91,Papua Barat,2010,64.865
+223,91,Papua Barat,2011,66.67
+224,91,Papua Barat,2012,68.5725
+225,94,Papua,2006,56.265
+226,94,Papua,2007,57.9925
+227,94,Papua,2008,57.8525
+228,94,Papua,2009,52.4325
+229,94,Papua,2010,53.0075
+230,94,Papua,2011,52.13
+231,94,Papua,2012,52.1975
